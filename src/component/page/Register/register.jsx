@@ -40,7 +40,11 @@ function RegisterPage() {
             <br />
             <br />
             <br />
-            <Button onClick={{}} variant="outline-secondary">
+            <Button
+              onClick={{}}
+              style={{ marginLeft: "-5px" }}
+              variant="outline-secondary"
+            >
               Register
             </Button>
             <br />
@@ -51,7 +55,12 @@ function RegisterPage() {
         </div>
         <img className="img-register" src="/image/character.jpg" alt="" />
       </div>
-      <Footer />;
+      <div
+        className="footer"
+        style={{ marginBottom: "-25px", marginTop: "25px", padding: "0px" }}
+      >
+        <Footer />;
+      </div>
     </>
   );
 }

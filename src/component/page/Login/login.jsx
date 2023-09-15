@@ -27,7 +27,11 @@ function Login() {
             />
             <br />
             <br />
-            <Button onClick={{}} variant="outline-secondary">
+            <Button
+              onClick={{}}
+              style={{ marginLeft: "-5px" }}
+              variant="outline-secondary"
+            >
               Login
             </Button>{" "}
             <br />

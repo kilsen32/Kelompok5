@@ -39,7 +39,7 @@ button{
   margin-top: -4px;
   background-color: rgb(157, 255, 186);
   width: 80px;
-  margin-left: 0px;
+  margin-left: 40px;
 }
 button:hover{
   background-color: rgba(157, 255, 186, 0.595);

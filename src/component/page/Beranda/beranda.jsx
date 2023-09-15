@@ -7,7 +7,12 @@ function Home() {
     <>
       <Navbar />
 
-      <img className="img-banner" src="/public/image/banner.jpg" alt="" style={{marginTop:"40px"}}/>
+      <img
+        className="img-banner"
+        src="/public/image/banner.jpg"
+        alt=""
+        style={{ marginTop: "40px" }}
+      />
       <br />
       <br />
       <hr
