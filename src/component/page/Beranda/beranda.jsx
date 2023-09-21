@@ -1,6 +1,8 @@
+import { Footer } from "antd/es/layout/layout";
 import Navbar from "../../layout/Navbar/navbar";
 import CardImage from "../../layout/card/cardImage";
 import CardImage2 from "../../layout/card/cardimage2";
+import Foooter from "../../layout/Footer/Footer2";
 
 function Home() {
   return (
@@ -31,6 +33,7 @@ function Home() {
           borderRadius: "5px",
         }}
       />
+      <Foooter />
     </>
   );
 }
