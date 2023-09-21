@@ -34,7 +34,7 @@ function CardImage() {
             style={{ marginLeft: "20px", width: "200px" }}
             variant="primary"
           >
-            Beli
+           <a href="/pesanan">Beli</a> 
           </Button>
         </Card.Body>
         <br />
@@ -69,7 +69,7 @@ function CardImage() {
             style={{ marginLeft: "20px", width: "200px" }}
             variant="primary"
           >
-            Beli
+          <a href="/pesanan">Beli</a> 
           </Button>
         </Card.Body>
         <br />
@@ -103,7 +103,7 @@ function CardImage() {
             style={{ marginLeft: "20px", width: "200px" }}
             variant="primary"
           >
-            Beli
+         <a href="/pesanan">Beli</a> 
           </Button>
         </Card.Body>
         <br />
@@ -137,7 +137,7 @@ function CardImage() {
             style={{ marginLeft: "20px", width: "200px" }}
             variant="primary"
           >
-            Beli
+          <a href="/pesanan">Beli</a> 
           </Button>
         </Card.Body>
         <br />
@@ -171,7 +171,7 @@ function CardImage() {
             style={{ marginLeft: "20px", width: "200px" }}
             variant="primary"
           >
-            Beli
+         <a href="/pesanan">Beli</a> 
           </Button>
         </Card.Body>
         <br />

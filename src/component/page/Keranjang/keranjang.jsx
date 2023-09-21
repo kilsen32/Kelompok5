@@ -1,5 +1,7 @@
+
 import Navbar from "../../layout/Navbar/navbar";
 import CardKeranjang from "../../layout/card/cardKeranjang";
+import Foooter from "../../layout/Footer/Footer2";
 
 function Keranjang() {
   return (
@@ -17,6 +19,7 @@ function Keranjang() {
         }}
       />
       <CardKeranjang />
+      <Foooter />
     </>
   );
 }
