@@ -89,7 +89,7 @@ const Foooter = () => {
               style={{
                 display: "block",
               }}
-              href="https://apps.apple.com/id/app/ruangguru-app-belajar-no-1/id1099742206?l=id"
+              href="/pesanan"
             >
               App Store
             </Button>
