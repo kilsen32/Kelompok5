@@ -7,12 +7,15 @@ function CardImage() {
       <div className="kategori1">
         <h1>Kategori 1</h1>
       </div>
+      <br />
+      {/* card 1 */}
       <Card
         style={{
           width: "15rem",
           backgroundColor: "salmon",
-          marginLeft: "90px",
+          marginLeft: "110px",
           borderRadius: "10px",
+          height: "400px",
         }}
       >
         <Card.Img
@@ -23,7 +26,12 @@ function CardImage() {
         <hr />
         <Card.Body>
           <Card.Title
-            style={{ marginLeft: "10px", color: "white", fontWeight: "bold" }}
+            style={{
+              marginLeft: "10px",
+              color: "white",
+              fontWeight: "bold",
+              marginTop: "-30px",
+            }}
           >
             Rumah Modern
           </Card.Title>
@@ -31,23 +39,31 @@ function CardImage() {
             Rumah mewah dengan harga yang murah
           </Card.Text>
           <Button
-            style={{ marginLeft: "20px", width: "200px" }}
+            href="/keranjang"
+            className="button-beli"
+            style={{
+              marginLeft: "-2px",
+              width: "200px",
+              height: "35px",
+            }}
             variant="primary"
           >
-           <a href="/pesanan">Beli</a> 
+            <a>Beli</a>
           </Button>
         </Card.Body>
         <br />
         {/* Card ke 2 */}
       </Card>
       <br />
+      {/* card 2 */}
       <Card
         style={{
           width: "15rem",
           backgroundColor: "salmon",
-          marginLeft: "360px",
-          marginTop: "-370px",
+          marginLeft: "380px",
+          marginTop: "-426px",
           borderRadius: "10px",
+          height: "400px",
         }}
       >
         <Card.Img
@@ -58,7 +74,12 @@ function CardImage() {
         <hr />
         <Card.Body>
           <Card.Title
-            style={{ marginLeft: "10px", color: "white", fontWeight: "bold" }}
+            style={{
+              marginLeft: "10px",
+              color: "white",
+              fontWeight: "bold",
+              marginTop: "-30px",
+            }}
           >
             Rumah Modern
           </Card.Title>
@@ -66,22 +87,30 @@ function CardImage() {
             Rumah mewah dengan harga yang murah
           </Card.Text>
           <Button
-            style={{ marginLeft: "20px", width: "200px" }}
+            href="/keranjang"
+            className="button-beli"
+            style={{
+              marginLeft: "-2px",
+              width: "200px",
+              height: "35px",
+            }}
             variant="primary"
           >
-          <a href="/pesanan">Beli</a> 
+            <a>Beli</a>
           </Button>
         </Card.Body>
         <br />
+        {/* Card ke 2 */}
       </Card>
-      <br />
+      {/* card 3 */}
       <Card
         style={{
           width: "15rem",
           backgroundColor: "salmon",
-          marginLeft: "630px",
-          marginTop: "-370px",
+          marginLeft: "650px",
+          marginTop: "-400px",
           borderRadius: "10px",
+          height: "400px",
         }}
       >
         <Card.Img
@@ -92,7 +121,12 @@ function CardImage() {
         <hr />
         <Card.Body>
           <Card.Title
-            style={{ marginLeft: "10px", color: "white", fontWeight: "bold" }}
+            style={{
+              marginLeft: "10px",
+              color: "white",
+              fontWeight: "bold",
+              marginTop: "-30px",
+            }}
           >
             Rumah Modern
           </Card.Title>
@@ -100,22 +134,30 @@ function CardImage() {
             Rumah mewah dengan harga yang murah
           </Card.Text>
           <Button
-            style={{ marginLeft: "20px", width: "200px" }}
+            href="/keranjang"
+            className="button-beli"
+            style={{
+              marginLeft: "-2px",
+              width: "200px",
+              height: "35px",
+            }}
             variant="primary"
           >
-         <a href="/pesanan">Beli</a> 
+            <a>Beli</a>
           </Button>
         </Card.Body>
         <br />
+        {/* Card ke 2 */}
       </Card>
-      <br />
+      {/* card 4 */}
       <Card
         style={{
           width: "15rem",
           backgroundColor: "salmon",
-          marginLeft: "900px",
-          marginTop: "-370px",
+          marginLeft: "920px",
+          marginTop: "-400px",
           borderRadius: "10px",
+          height: "400px",
         }}
       >
         <Card.Img
@@ -126,7 +168,12 @@ function CardImage() {
         <hr />
         <Card.Body>
           <Card.Title
-            style={{ marginLeft: "10px", color: "white", fontWeight: "bold" }}
+            style={{
+              marginLeft: "10px",
+              color: "white",
+              fontWeight: "bold",
+              marginTop: "-30px",
+            }}
           >
             Rumah Modern
           </Card.Title>
@@ -134,22 +181,30 @@ function CardImage() {
             Rumah mewah dengan harga yang murah
           </Card.Text>
           <Button
-            style={{ marginLeft: "20px", width: "200px" }}
+            href="/keranjang"
+            className="button-beli"
+            style={{
+              marginLeft: "-2px",
+              width: "200px",
+              height: "35px",
+            }}
             variant="primary"
           >
-          <a href="/pesanan">Beli</a> 
+            <a>Beli</a>
           </Button>
         </Card.Body>
         <br />
+        {/* Card ke 2 */}
       </Card>
-      <br />
+      {/* card 5 */}
       <Card
         style={{
           width: "15rem",
           backgroundColor: "salmon",
-          marginLeft: "1170px",
-          marginTop: "-372px",
+          marginLeft: "1190px",
+          marginTop: "-400px",
           borderRadius: "10px",
+          height: "400px",
         }}
       >
         <Card.Img
@@ -160,7 +215,12 @@ function CardImage() {
         <hr />
         <Card.Body>
           <Card.Title
-            style={{ marginLeft: "10px", color: "white", fontWeight: "bold" }}
+            style={{
+              marginLeft: "10px",
+              color: "white",
+              fontWeight: "bold",
+              marginTop: "-30px",
+            }}
           >
             Rumah Modern
           </Card.Title>
@@ -168,15 +228,21 @@ function CardImage() {
             Rumah mewah dengan harga yang murah
           </Card.Text>
           <Button
-            style={{ marginLeft: "20px", width: "200px" }}
+            href="/keranjang"
+            className="button-beli"
+            style={{
+              marginLeft: "-2px",
+              width: "200px",
+              height: "35px",
+            }}
             variant="primary"
           >
-         <a href="/pesanan">Beli</a> 
+            <a>Beli</a>
           </Button>
         </Card.Body>
         <br />
+        {/* Card ke 2 */}
       </Card>
-      <br />
     </>
   );
 }

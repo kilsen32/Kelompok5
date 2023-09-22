@@ -1,4 +1,3 @@
-import { Footer } from "antd/es/layout/layout";
 import Navbar from "../../layout/Navbar/navbar";
 import CardImage from "../../layout/card/cardImage";
 import CardImage2 from "../../layout/card/cardimage2";
@@ -9,7 +8,12 @@ function Home() {
     <>
       <Navbar />
 
-      <img className="img-banner" src="/public/image/banner.jpg" alt="" style={{marginTop:"40px"}}/>
+      <img
+        className="img-banner"
+        src="/public/image/banner.jpg"
+        alt=""
+        style={{ marginTop: "40px" }}
+      />
       <br />
       <br />
       <hr
@@ -18,6 +22,7 @@ function Home() {
           height: "5px",
           backgroundColor: "grey",
           borderRadius: "5px",
+          marginLeft: "250px",
         }}
       />
       <br />
@@ -27,6 +32,7 @@ function Home() {
       <br />
       <hr
         style={{
+          marginLeft: "250px",
           width: "1000px",
           height: "5px",
           backgroundColor: "grey",

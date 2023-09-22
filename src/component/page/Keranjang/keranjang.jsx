@@ -1,4 +1,3 @@
-
 import Navbar from "../../layout/Navbar/navbar";
 import CardKeranjang from "../../layout/card/cardKeranjang";
 import Foooter from "../../layout/Footer/Footer2";
@@ -14,10 +13,12 @@ function Keranjang() {
         style={{
           width: "1300px",
           height: "5px",
+          marginLeft: "115px",
           backgroundColor: "grey",
           borderRadius: "5px",
         }}
       />
+      <br />
       <CardKeranjang />
       <Foooter />
     </>

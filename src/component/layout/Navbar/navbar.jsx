@@ -1,4 +1,5 @@
 import { Dropdown, Space } from "antd";
+import { ShoppingCartOutlined, MessageOutlined } from "@ant-design/icons";
 const items = [
   {
     label: <a href="/">Login</a>,
@@ -15,30 +16,36 @@ function Navbar() {
     <>
       <nav>
         <h1>Toko Ku</h1>
-        <input type="text" placeholder="Cari barang...." />
-        <div className="nav-button">
-          <button onClick={{}}>
-            <a href="/src/component/page/Login/login.jsx">Home</a>
-          </button>
+        <input
+          style={{ marginTop: "20px", marginLeft: "115px" }}
+          type="text"
+          placeholder="Cari barang...."
+        />
+        <div className="nav-button" style={{ marginTop: "10px" }}>
+          <a
+            href="/keranjang"
+            style={{ fontSize: "30px", marginLeft: "250px" }}
+          >
+            <ShoppingCartOutlined />
+          </a>
 
-          <button>
-            <a href="">About</a>
-          </button>
-
-          <button>
-            <a href="/src/component/page/Login/login.jsx">Contact</a>
-          </button>
+          <a
+            href="/src/component/page/Login/login.jsx"
+            style={{ fontSize: "28px", marginLeft: "15px" }}
+          >
+            <MessageOutlined />
+          </a>
         </div>
         <Dropdown
           menu={{
             items,
           }}
         >
-          <a onClick={(e) => e.preventDefault()}>
+          <a style={{ marginLeft: "85px" }} onClick={(e) => e.preventDefault()}>
             <Space>
               <img
-                style={{ width: "40px", marginLeft: "25px", marginTop: "8px" }}
-                src="https://pixlok.com/wp-content/uploads/2022/02/Profile-Icon-SVG-09856789.png"
+                style={{ width: "40px", marginTop: "15px" }}
+                src="https://cdn-icons-png.flaticon.com/512/219/219988.png"
                 alt=""
               />
             </Space>
